@@ -1,0 +1,69 @@
+body {
+  padding: 30px 100px 30px 100px;
+}
+.mainMenu {
+  display: table;
+  float: left;
+  /* transform: translate(-50%, 0);
+  margin: 0% 0% 0 50%;
+  padding: 0 0 50px 0;
+  min-width: 400px; */
+}
+.mainMenu li {
+  /* float: left;
+  
+    min-width: 150px;
+    display: flex; */
+  /* menu without mark */
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  display: block;
+  /* padding: 0 2% 3% 2%; */
+}
+
+.mainMenu li a {
+  white-space: nowrap;
+  display: block;
+
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  color: gray;
+}
+.logo::first-letter {
+  text-transform: uppercase;
+  color: aqua;
+  text-shadow: black;
+}
+.logo {
+  text-transform: uppercase;
+  color: grey;
+  padding: 0 500px 0 0;
+}
+h1 {
+  /* transform: translate(-50%, 0); */
+  padding: 100px 30% 10% 30%;
+  text-transform: uppercase;
+}
+.products {
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  display: block;
+}
+.products li {
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  display: block;
+}
+.products li a {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+}
+.products li a {
+  background-color: gray;
+}
